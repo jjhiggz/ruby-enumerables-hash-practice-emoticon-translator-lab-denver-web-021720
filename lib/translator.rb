@@ -35,6 +35,7 @@ def get_japanese_emoticon(data,emoticon)
       return wemorray[key]
     end
   end
+  return 'bro I am really fucking sorry, but we cannot help you'
 end
 
 def get_english_meaning
