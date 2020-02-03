@@ -28,10 +28,12 @@ pp a
 
 def get_japanese_emoticon(data,emoticon)
   a=load_library(data)
-  wemorray = a[get_emoticon]
+  wemorray = a[:get_emoticon]
   v = ''
   wemorray.reduce ({}) do |memo (key,value)|
-    if 
+    if key == emoticon
+      return wemorray[key]
+    end
   end
 end
 
