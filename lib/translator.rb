@@ -35,7 +35,7 @@ def get_japanese_emoticon(data,emoticon)
       return wemorray[key]
     end
   end
-  return "Sorry,that emoticon was not found"
+  return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(data,emoticon)
@@ -47,5 +47,5 @@ def get_english_meaning(data,emoticon)
       return wemorray[key]
     end
   end
-  return "bro I am really fucking sorry, but we cannot help you"
+  return "Sorry, that emoticon was not found"
 end
