@@ -27,8 +27,12 @@ pp a
 
 
 def get_japanese_emoticon(data,emoticon)
-  
-  # code goes here
+  a=load_library(data)
+  wemorray = a[get_emoticon]
+  v = ''
+  wemorray.reduce ({}) do |memo (key,value)|
+    if 
+  end
 end
 
 def get_english_meaning
