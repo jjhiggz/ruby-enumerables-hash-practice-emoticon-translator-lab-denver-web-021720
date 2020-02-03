@@ -26,10 +26,26 @@ pp a
 
 
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(data,emoticon)
+  a=load_library(data)
+  wemorray = a[:get_emoticon]
+  v = ''
+  wemorray.reduce ({}) do |memo, (key,value)|
+    if key == emoticon
+      return wemorray[key]
+    end
+  end
+  return "Sorry, that emoticon was not found"
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(data,emoticon)
+  a=load_library(data)
+  wemorray = a[:get_meaning]
+  v = ''
+  wemorray.reduce ({}) do |memo, (key,value)|
+    if key == emoticon
+      return wemorray[key]
+    end
+  end
+  return "Sorry, that emoticon was not found"
 end
