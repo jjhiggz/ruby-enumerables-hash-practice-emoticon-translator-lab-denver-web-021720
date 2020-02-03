@@ -26,7 +26,8 @@ pp a
 
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon(data,emoticon)
+  
   # code goes here
 end
 
