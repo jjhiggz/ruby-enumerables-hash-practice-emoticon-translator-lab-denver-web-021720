@@ -49,4 +49,4 @@ def get_english_meaning(data,emoticon)
   end
   return "bro I am really fucking sorry, but we cannot help you"
 end
-end
+
